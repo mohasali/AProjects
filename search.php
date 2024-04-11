@@ -36,7 +36,7 @@ if($_SERVER['REQUEST_METHOD']='GET'){
     <div class="container">
         <div class="search-container">
             <div class="search-options">
-                <form style="display: flex;" method="get">
+                <form class="search-bar-container" method="get">
                     <input type="text" placeholder="Search for Project Name or Project Start Date..." class="search-bar" name="q">
                     <button class="search-button">Search</button>
                 </form>
